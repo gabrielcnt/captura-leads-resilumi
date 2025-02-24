@@ -1,0 +1,110 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root {
+    --font1: "Passion One", "sans-serif";
+    --background: #303030;
+    --principal: #E400C6;
+    --secundaria: #FF8800;
+    --sombra: 2px 8px 25px rgba(0, 0, 0, 0.295);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins';
+    color: white;
+    text-transform: capitalize;
+    text-decoration: none;
+}
+
+body {
+    background-color: var(--background);
+    overflow: hidden;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+header {
+    height: 80px;
+    padding: 5px;
+}
+
+header img {
+    width: 70px;
+}
+
+.container-cta {
+    width: 500px;
+    border: 1px solid var(--secundaria);
+    border-radius: 20px;
+    box-shadow: var(--sombra);
+    padding: 20px;
+}
+
+.container-cta h1 {
+    color: var(--principal);
+    font-family: "Passion One", sans-serif;
+    margin: 20px auto;
+    text-align: center;
+}
+
+.botão {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 27px;
+    cursor: pointer;
+    width: 400px;
+    height: 80px;
+    background-color: var(--secundaria);
+    border-radius: 20px;
+    margin: 30px auto;
+    user-select: none;
+    box-shadow: var(--sombra);
+
+}
+
+.botão:hover {
+    background-color: var(--principal);
+    box-shadow: 0px 0px 30px var(--principal);
+    transition: .5s;
+}
+
+.botão:active {
+    background-color: white;
+    transition: 0s;
+    color: var(--background);
+}
+
+.redes-sociais {
+    display: flex;
+}
+
+.redes-sociais svg {
+    fill: var(--principal);
+    width: 50px;
+}
+
+.insta, .tiktok, .facebook {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+.ebook {
+    width: 40vw;
+}
+
+.ebook img {
+    width: 700px;
+    position: absolute;
+}
