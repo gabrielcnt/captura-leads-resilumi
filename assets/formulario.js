@@ -17,7 +17,7 @@ document.getElementById("btnform").addEventListener("click", function() {
     mostrarResposta("Processando...", "info");
     
     // Enviar dados para o servidor
-    fetch("http://localhost:3000/lead", {
+    fetch("servidor-lead-resilumi.railway.internal/lead", {
         method: "POST",
         headers: {
             "Content-Type": "application/json",
