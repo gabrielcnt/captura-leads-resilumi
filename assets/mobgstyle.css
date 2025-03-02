@@ -1,0 +1,43 @@
+@media  screen and (min-width: 320px ) and (max-width: 1202px) {
+
+    :root {
+        --font1: "Passion One", "sans-serif";
+        --background: #303030;
+        --principal: #E400C6;
+        --secundaria: #FF8800;
+        --sombra: 2px 8px 25px rgba(0, 0, 0, 0.295);
+    }
+
+    body {
+        overflow: auto;
+    }
+
+    main {
+        display: block;
+        margin: auto;
+        margin-top: 0px;
+    }
+
+    .container-cta {
+        width: 100vw;
+        border: none;
+        margin: 0 auto;
+        box-shadow: none;
+        padding: 20px;
+    }
+
+    .container-cta h1 {
+        margin-top: 0;
+    }
+
+    .ebook {
+        width: 400px;
+        margin: auto;
+    }
+    
+    .ebook img {
+        width: 400px;
+        position: static;
+        margin: auto;
+    }
+}
