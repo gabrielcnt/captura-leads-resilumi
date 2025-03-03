@@ -23,7 +23,7 @@ document.getElementById("btnform").addEventListener("click", function() {
             "Content-Type": "application/json",
         },
         body: JSON.stringify({ 
-            attributes: { NOME: nome }, 
+            attributes: { FIRSTNAME: nome }, 
             email 
         })
     })
