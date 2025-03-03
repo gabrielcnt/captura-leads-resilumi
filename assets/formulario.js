@@ -22,7 +22,10 @@ document.getElementById("btnform").addEventListener("click", function() {
         headers: {
             "Content-Type": "application/json",
         },
-        body: JSON.stringify({ nome, email })
+        body: JSON.stringify({ 
+            attributes: { NOME: nome }, 
+            email 
+        })
     })
     .then(response => response.json())
     .then(data => {
@@ -77,4 +80,5 @@ function mostrarResposta(texto, tipo) {
     
     // Definir texto
     respostaElement.textContent = texto;
+
 }
