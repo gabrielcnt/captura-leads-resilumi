@@ -3,7 +3,7 @@ document.getElementById("btnform").addEventListener("click", function() {
     // Obter os valores do formulário
     const nome = document.getElementById("nome").value;
     const email = document.getElementById("email").value;
-    
+
     // Elemento para mostrar mensagens ao usuário
     const respostaElement = document.getElementById("resposta");
     
