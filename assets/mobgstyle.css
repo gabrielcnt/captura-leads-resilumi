@@ -30,14 +30,17 @@
         margin-top: 0;
     }
 
-    .ebook {
-        width: 400px;
-        margin: auto;
+    .botão {
+        width: 300px;
+    }
+
+    .botão p {
+        font-size: ;
+    }
+
+    .redes-sociais svg {
+        fill: var(--principal);
+        width: 5vw;
     }
     
-    .ebook img {
-        width: 400px;
-        position: static;
-        margin: auto;
-    }
 }

@@ -64,7 +64,7 @@ header img {
     cursor: pointer;
     width: 400px;
     height: 80px;
-    background-color: var(--secundaria);
+    background-color: #0088CC;
     border-radius: 20px;
     margin: 30px auto;
     user-select: none;
@@ -74,7 +74,7 @@ header img {
 
 .botão:hover {
     background-color: var(--principal);
-    box-shadow: 0px 0px 30px var(--principal);
+    box-shadow: 0px 0px 30px #0088CC;
     transition: .5s;
 }
 
@@ -84,8 +84,14 @@ header img {
     color: var(--background);
 }
 
+.cont-redes {
+    text-align: center;
+}
+
 .redes-sociais {
     display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .redes-sociais svg {
