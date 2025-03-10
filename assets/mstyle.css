@@ -14,6 +14,7 @@
     }
     
     header {
+        width: 100vw;
         height: 80px;
         padding: 0px;
     }
@@ -53,7 +54,7 @@
         font-weight: 300;
         margin-bottom: 30px;
         text-align: center;
-        width: 90vw;
+        width: 80vw;
     }
 
     .inputs {
@@ -61,7 +62,8 @@
     }
 
     .inputs input {
-        background-color: transparent;
+        background-color: white;
+        color: black;
         width: 80vw;
         height: 50px;
         border: 2px solid var(--principal);
@@ -79,6 +81,7 @@
 
     .botão p {
         font-size: 20px;
+        text-align: center;
     }
 
     #dados {
@@ -98,7 +101,9 @@
 
     .info .ebook img {
         width: 300px;
+        display: block;
     }
+
 
     .descrição {
         display: block;
@@ -108,6 +113,8 @@
 
     .descrição .ebook-1, .ebook-2 {
         margin-bottom: 20px;
+        width: 80vw;
+        display: block;
     }
 
     
