@@ -18,6 +18,10 @@
         margin-top: 0px;
     }
 
+    .sib-form-container {
+        width: 50px;
+    }
+
     .container-cta {
         width: 100vw;
         border: none;
@@ -35,7 +39,7 @@
     }
 
     .botão p {
-        font-size: ;
+        font-size: 200px;
     }
 
     .redes-sociais svg {

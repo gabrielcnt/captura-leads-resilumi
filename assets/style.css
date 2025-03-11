@@ -23,7 +23,7 @@
 
 body {
     background-color: var(--background);
-    overflow: hidden;
+    overflow: auto;
 }
 
 main {
@@ -42,14 +42,14 @@ header img {
 
 .form {
     width: 50vw;
-    padding: 40px;
+    padding: 20px;
 }
 
 .form h1, .form span {
     font-family: "Passion One", sans-serif;
     font-size: 40px;
     width: 600px;
-    margin-bottom: 30px;
+    margin-bottom: 10px;
     color: var(--secundaria);
 }
 
@@ -59,7 +59,7 @@ header img {
 
 .form #txt-info {
     font-weight: 300;
-    margin-bottom: 30px;
+    margin-bottom: 5px;
 }
 
 .inputs p {
